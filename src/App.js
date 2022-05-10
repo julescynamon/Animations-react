@@ -1,20 +1,19 @@
-import { Routes, Route } from 'react-router-dom';
-import Liste from './Pages/Liste/Liste';
-import Scroll from './Pages/Scroll/Scroll';
-import StateAnim from './Pages/Scroll/Scroll';
-import Navbar from './Components/Navbar/Navbar';
+import { Routes, Route } from "react-router-dom";
+import Liste from "./Pages/Liste/Liste";
+import Scroll from "./Pages/Scroll/Scroll";
+import StateAnim from "./Pages/StateAnim/StateAnim";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
 	return (
 		<div className='global-container'>
-			<Navbar/>
+			<Navbar />
 			<Routes>
-				<Route path='/' element={<Liste/>}/>
-				<Route path='/scroll' element={<Scroll/>}/>
-				<Route path='/state' element={<StateAnim/>}/>
+				<Route path='/' element={<Liste />} />
+				<Route path='/scroll' element={<Scroll />} />
+				<Route path='/state' element={<StateAnim />} />
 			</Routes>
 		</div>
-
 	);
 }
 

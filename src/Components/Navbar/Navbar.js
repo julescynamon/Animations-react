@@ -6,7 +6,7 @@ export default function Navbar() {
 	return (
 		<nav>
 			<Link to='/'>Liste</Link>
-			<Link to='/statea'>State</Link>
+			<Link to='/state'>State</Link>
 			<Link to='/scroll'>Scroll</Link>
 		</nav>
 	);
